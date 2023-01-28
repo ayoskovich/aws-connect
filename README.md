@@ -1,5 +1,7 @@
 # aws-connect
 
+[![AWS example workflow](https://github.com/ayoskovich/aws-connect/actions/workflows/blank.yml/badge.svg)](https://github.com/ayoskovich/aws-connect/actions/workflows/blank.yml)
+
 Please note that at NO TIME in ANY of this configuration are you hardcoding access keys or token ids or anything like that. This approach does NOT require hardcoding credentials ANYWHERE.
 
 1. Add github as an identity provider. You'll need the ARN in step 3.
