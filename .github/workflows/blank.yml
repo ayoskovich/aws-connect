@@ -4,7 +4,7 @@ on:
 env:
   BUCKET_NAME : "ay-airflow"
   AWS_REGION : "us-east-1"
-  ECR_REPOSITORY: "dummy_repo"
+  ECR_REPOSITORY: "github-testing"
   
 # permission can be added at job level or workflow level    
 permissions:
