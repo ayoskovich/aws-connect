@@ -9,7 +9,8 @@ Please note that at NO TIME in ANY of this configuration are you hardcoding acce
 
 3. Create an IAM role for github and attach the policy from step 2:
 
-You can select which branches have access in the Trust Relationship:
+    - You can select which branches have access in the Trust Relationship:
+    - DONT BE STUPID HERE. Regex rules need to be inside `StringLike`, and not `StringEquals`
 ```json
 {
     "Version": "2012-10-17",
