@@ -86,4 +86,6 @@ jobs:
           echo "image=$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG" >> $GITHUB_OUTPUT
 ```
 
-some dev stuff
+## Scheduling
+
+1. Create an `EventBridge` RULE, not a a schedule. You'll need to click one of the grey buttons bc the steps will try and get you to use a schedule instead. You should see an option to create a role for running the task.
