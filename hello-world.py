@@ -1,1 +1,3 @@
-print('you should see this change.')
+import requests
+ip = requests.get('http://ifconfig.me').content
+print(f'my ip is: {ip}')
